@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog - Catálogo Urbano Inteligente</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container">
+      <a class="navbar-brand" href="#">Catalog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#funcionalidades">Funcionalidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cronograma">Cronograma</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center py-5 bg-white">
+    <img alt="Logo do Catalog" class="img-fluid my-3" src="./logo.png" style="max-height:150px;"></img>
+    <h3>O Catálogo Urbano Inteligente que conecta pessoas, comércios e serviços.</h3>
+    <p>Conectando você ao que importa, mesmo offline!</p>
+  </header>
+
+
+  <section id="sobre" class="bg-danger text-white py-5">
+    <div class="container">
+      <h2>Sobre o Projeto</h2>
+      <p>Catalog é um aplicativo inovador que mapeia e organiza serviços urbanos, comércios e espaços públicos com
+        suporte online e offline, focado na inclusão digital de cidades pequenas e médias. Catalog promove a inclusão
+        digital, facilita o acesso a serviços essenciais e fortalece o comércio local, gerando renda e cidadania em
+        comunidades carentes ou desconectadas.</p>
+    </div>
+  </section>
+
+  <section id="funcionalidades">
+    <div class="container">
+      <h2 class="py-5">Funcionalidades</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Geolocalização e Busca Inteligente</h5>
+              <p class="card-text">Permite localizar serviços e comércios por cidade, categoria ou nome, com sugestões
+                automáticas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Modo Offline</h5>
+              <p class="card-text">Acesso aos dados locais mesmo sem conexão com a internet, garantindo informação em
+                qualquer lugar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Cadastro Colaborativo</h5>
+              <p class="card-text">Usuários podem contribuir com informações atualizadas sobre serviços, fortalecendo a
+                comunidade.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cronograma" class="container py-5 bg-white">
+    <h2>Cronograma do Projeto</h2>
+    <p>Faltam <span id="contador-dias"></span> dias para o lançamento oficial do aplicativo!</p>
+  </section>
+
+  <footer class="bg-danger text-white text-center py-3">
+    Thays Lacerda | Análise e Desenvolvimento de Sistemas | thays.lacerdac@gmail.com</footer>
+
+  <script src="./contador.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
